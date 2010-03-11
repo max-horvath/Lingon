@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1A949A0CCE79ED00FC693F /* LINSplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1A94990CCE79ED00FC693F /* LINSplitViewDelegate.m */; };
+		7F2075780DB11D5600EF86D5 /* Lingon-Manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2075760DB11D5600EF86D5 /* Lingon-Manual.pdf */; };
+		7F2075E60DB11ED100EF86D5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2075E50DB11ED100EF86D5 /* Credits.rtf */; };
+		7F29B3480DBD1C6A00885C1F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F29B3460DBD1C6A00885C1F /* Localizable.strings */; };
+		7F3551320CC6BD5600CC424C /* LINStepTwo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7F35512F0CC6BD5600CC424C /* LINStepTwo.pdf */; };
+		7F3551330CC6BD5600CC424C /* LINStepThree.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7F3551300CC6BD5600CC424C /* LINStepThree.pdf */; };
+		7F3551340CC6BD5600CC424C /* LINStepOne.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7F3551310CC6BD5600CC424C /* LINStepOne.pdf */; };
+		7F372A160CC12E98003BFC4F /* LINNewIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7F372A130CC12E98003BFC4F /* LINNewIcon.pdf */; };
+		7F372A180CC12E98003BFC4F /* LINSaveIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7F372A150CC12E98003BFC4F /* LINSaveIcon.pdf */; };
+		7F372A1C0CC12EF6003BFC4F /* LINWindowDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F372A1B0CC12EF6003BFC4F /* LINWindowDelegate.m */; };
+		7F372A2E0CC13092003BFC4F /* LINToolbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F372A2D0CC13092003BFC4F /* LINToolbarController.m */; };
+		7F39E2A10DB10F36007C449A /* NSToolbarItem+Lingon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F39E2A00DB10F36007C449A /* NSToolbarItem+Lingon.m */; };
+		7F3AB3F00DBB7E700020A70B /* InsertParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F3AB3EF0DBB7E700020A70B /* InsertParameters.plist */; };
+		7F7E94600DB6916B00019845 /* LINPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7E945E0DB6916B00019845 /* LINPreferences.xib */; };
+		7F7E94630DB6961800019845 /* LINManPageLaunchdPlist.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7E94610DB6961800019845 /* LINManPageLaunchdPlist.xib */; };
+		7F7E94660DB6967900019845 /* LINManPageLaunchctl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7E94640DB6967900019845 /* LINManPageLaunchctl.xib */; };
+		7F7E94690DB696C900019845 /* LINManPageLaunchd.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7E94670DB696C900019845 /* LINManPageLaunchd.xib */; };
+		7F9590CA0DB7CCE900803BD1 /* LINFontTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9590C70DB7CCE900803BD1 /* LINFontTransformer.m */; };
+		7F9590CB0DB7CCE900803BD1 /* LINSyntaxColouring.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9590C90DB7CCE900803BD1 /* LINSyntaxColouring.m */; };
+		7F9591BD0DB7DECF00803BD1 /* LINNotValidIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7F9591BB0DB7DECF00803BD1 /* LINNotValidIcon.pdf */; };
+		7F9591BE0DB7DECF00803BD1 /* LINValidIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7F9591BC0DB7DECF00803BD1 /* LINValidIcon.pdf */; };
+		7FA32F070CC2BF7B0067AAA8 /* LINOutlineViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA32F060CC2BF7B0067AAA8 /* LINOutlineViewDelegate.m */; };
+		7FB2BD4E0DBA1D5B00EB8278 /* LINWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2BD4D0DBA1D5B00EB8278 /* LINWindow.m */; };
+		7FB2BD780DBA27EE00EB8278 /* LINGradientBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2BD770DBA27EE00EB8278 /* LINGradientBackgroundView.m */; };
+		7FB2BE210DBA404E00EB8278 /* LINViewMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2BE200DBA404E00EB8278 /* LINViewMenuController.m */; };
+		7FB77CB60DB3E28600763AF7 /* LINDummyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB77CB50DB3E28600763AF7 /* LINDummyView.m */; };
+		7FB8E2B70CC261EE00177872 /* LINApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8E2B60CC261EE00177872 /* LINApplication.m */; };
+		7FB8E3A90CC2822A00177872 /* LINPlistListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8E3A80CC2822A00177872 /* LINPlistListCell.m */; };
+		7FC182880CBBC91C00E36F0E /* LINApplicationIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7FC182870CBBC91C00E36F0E /* LINApplicationIcon.icns */; };
+		7FC182B00CBBCB5100E36F0E /* LINHelpMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC182A60CBBCB5100E36F0E /* LINHelpMenuController.m */; };
+		7FC182B10CBBCB5100E36F0E /* LINMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC182A80CBBCB5100E36F0E /* LINMainController.m */; };
+		7FC182B20CBBCB5100E36F0E /* LINPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC182AA0CBBCB5100E36F0E /* LINPreferencesController.m */; };
+		7FC182B40CBBCB5100E36F0E /* LINVariousPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC182AE0CBBCB5100E36F0E /* LINVariousPerformer.m */; };
+		7FC182B60CBBCB9100E36F0E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC182B50CBBCB9100E36F0E /* SystemConfiguration.framework */; };
+		7FC183750CBBD39300E36F0E /* LINFileMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC183740CBBD39300E36F0E /* LINFileMenuController.m */; };
+		7FC1837A0CBBD4E400E36F0E /* LINBasicPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC183790CBBD4E400E36F0E /* LINBasicPerformer.m */; };
+		7FC1837D0CBBD5E700E36F0E /* LINAuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1837C0CBBD5E700E36F0E /* LINAuthenticationController.m */; };
+		7FC183D20CBBD9D200E36F0E /* LINInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC183D10CBBD9D200E36F0E /* LINInterfaceController.m */; };
+		7FFEFA770DA946CB00A66E4E /* LINMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FFEFA750DA946CB00A66E4E /* LINMainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Lingon_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lingon_Prefix.pch; sourceTree = "<group>"; };
+		7F1A94980CCE79ED00FC693F /* LINSplitViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINSplitViewDelegate.h; path = Classes/LINSplitViewDelegate.h; sourceTree = "<group>"; };
+		7F1A94990CCE79ED00FC693F /* LINSplitViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINSplitViewDelegate.m; path = Classes/LINSplitViewDelegate.m; sourceTree = "<group>"; };
+		7F2075770DB11D5600EF86D5 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = English; path = "English.lproj/Lingon-Manual.pdf"; sourceTree = "<group>"; };
+		7F2075E50DB11ED100EF86D5 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		7F29B3440DBD1C5100885C1F /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/LINMainMenu.xib; sourceTree = "<group>"; };
+		7F29B3450DBD1C5800885C1F /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/LINPreferences.xib; sourceTree = "<group>"; };
+		7F29B3470DBD1C6A00885C1F /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7F29B3490DBD1C8B00885C1F /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7F35512F0CC6BD5600CC424C /* LINStepTwo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = LINStepTwo.pdf; path = Graphics/LINStepTwo.pdf; sourceTree = "<group>"; };
+		7F3551300CC6BD5600CC424C /* LINStepThree.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = LINStepThree.pdf; path = Graphics/LINStepThree.pdf; sourceTree = "<group>"; };
+		7F3551310CC6BD5600CC424C /* LINStepOne.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = LINStepOne.pdf; path = Graphics/LINStepOne.pdf; sourceTree = "<group>"; };
+		7F372A130CC12E98003BFC4F /* LINNewIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = LINNewIcon.pdf; path = Graphics/LINNewIcon.pdf; sourceTree = "<group>"; };
+		7F372A150CC12E98003BFC4F /* LINSaveIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = LINSaveIcon.pdf; path = Graphics/LINSaveIcon.pdf; sourceTree = "<group>"; };
+		7F372A1A0CC12EF6003BFC4F /* LINWindowDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINWindowDelegate.h; path = Classes/LINWindowDelegate.h; sourceTree = "<group>"; };
+		7F372A1B0CC12EF6003BFC4F /* LINWindowDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINWindowDelegate.m; path = Classes/LINWindowDelegate.m; sourceTree = "<group>"; };
+		7F372A2C0CC13092003BFC4F /* LINToolbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINToolbarController.h; path = Classes/LINToolbarController.h; sourceTree = "<group>"; };
+		7F372A2D0CC13092003BFC4F /* LINToolbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINToolbarController.m; path = Classes/LINToolbarController.m; sourceTree = "<group>"; };
+		7F39E29F0DB10F36007C449A /* NSToolbarItem+Lingon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSToolbarItem+Lingon.h"; path = "Classes/NSToolbarItem+Lingon.h"; sourceTree = "<group>"; };
+		7F39E2A00DB10F36007C449A /* NSToolbarItem+Lingon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSToolbarItem+Lingon.m"; path = "Classes/NSToolbarItem+Lingon.m"; sourceTree = "<group>"; };
+		7F3AB3EF0DBB7E700020A70B /* InsertParameters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InsertParameters.plist; sourceTree = "<group>"; };
+		7F7E945F0DB6916B00019845 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/LINPreferences.xib; sourceTree = "<group>"; };
+		7F7E94620DB6961800019845 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/LINManPageLaunchdPlist.xib; sourceTree = "<group>"; };
+		7F7E94650DB6967900019845 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/LINManPageLaunchctl.xib; sourceTree = "<group>"; };
+		7F7E94680DB696C900019845 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/LINManPageLaunchd.xib; sourceTree = "<group>"; };
+		7F9590C60DB7CCE800803BD1 /* LINFontTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINFontTransformer.h; path = Classes/LINFontTransformer.h; sourceTree = "<group>"; };
+		7F9590C70DB7CCE900803BD1 /* LINFontTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINFontTransformer.m; path = Classes/LINFontTransformer.m; sourceTree = "<group>"; };
+		7F9590C80DB7CCE900803BD1 /* LINSyntaxColouring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINSyntaxColouring.h; path = Classes/LINSyntaxColouring.h; sourceTree = "<group>"; };
+		7F9590C90DB7CCE900803BD1 /* LINSyntaxColouring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINSyntaxColouring.m; path = Classes/LINSyntaxColouring.m; sourceTree = "<group>"; };
+		7F9591BB0DB7DECF00803BD1 /* LINNotValidIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = LINNotValidIcon.pdf; path = Graphics/LINNotValidIcon.pdf; sourceTree = "<group>"; };
+		7F9591BC0DB7DECF00803BD1 /* LINValidIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = LINValidIcon.pdf; path = Graphics/LINValidIcon.pdf; sourceTree = "<group>"; };
+		7FA32F050CC2BF7B0067AAA8 /* LINOutlineViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINOutlineViewDelegate.h; path = Classes/LINOutlineViewDelegate.h; sourceTree = "<group>"; };
+		7FA32F060CC2BF7B0067AAA8 /* LINOutlineViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINOutlineViewDelegate.m; path = Classes/LINOutlineViewDelegate.m; sourceTree = "<group>"; };
+		7FB2BD4C0DBA1D5B00EB8278 /* LINWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINWindow.h; path = Classes/LINWindow.h; sourceTree = "<group>"; };
+		7FB2BD4D0DBA1D5B00EB8278 /* LINWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINWindow.m; path = Classes/LINWindow.m; sourceTree = "<group>"; };
+		7FB2BD760DBA27EE00EB8278 /* LINGradientBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINGradientBackgroundView.h; path = Classes/LINGradientBackgroundView.h; sourceTree = "<group>"; };
+		7FB2BD770DBA27EE00EB8278 /* LINGradientBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINGradientBackgroundView.m; path = Classes/LINGradientBackgroundView.m; sourceTree = "<group>"; };
+		7FB2BE1F0DBA404E00EB8278 /* LINViewMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINViewMenuController.h; path = Classes/LINViewMenuController.h; sourceTree = "<group>"; };
+		7FB2BE200DBA404E00EB8278 /* LINViewMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINViewMenuController.m; path = Classes/LINViewMenuController.m; sourceTree = "<group>"; };
+		7FB77CB40DB3E28600763AF7 /* LINDummyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINDummyView.h; path = Classes/LINDummyView.h; sourceTree = "<group>"; };
+		7FB77CB50DB3E28600763AF7 /* LINDummyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINDummyView.m; path = Classes/LINDummyView.m; sourceTree = "<group>"; };
+		7FB8E2B50CC261EE00177872 /* LINApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINApplication.h; path = Classes/LINApplication.h; sourceTree = "<group>"; };
+		7FB8E2B60CC261EE00177872 /* LINApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINApplication.m; path = Classes/LINApplication.m; sourceTree = "<group>"; };
+		7FB8E3A70CC2822A00177872 /* LINPlistListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINPlistListCell.h; path = Classes/LINPlistListCell.h; sourceTree = "<group>"; };
+		7FB8E3A80CC2822A00177872 /* LINPlistListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINPlistListCell.m; path = Classes/LINPlistListCell.m; sourceTree = "<group>"; };
+		7FC182870CBBC91C00E36F0E /* LINApplicationIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = LINApplicationIcon.icns; path = Graphics/LINApplicationIcon.icns; sourceTree = "<group>"; };
+		7FC182A50CBBCB5100E36F0E /* LINHelpMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINHelpMenuController.h; path = Classes/LINHelpMenuController.h; sourceTree = "<group>"; };
+		7FC182A60CBBCB5100E36F0E /* LINHelpMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINHelpMenuController.m; path = Classes/LINHelpMenuController.m; sourceTree = "<group>"; };
+		7FC182A70CBBCB5100E36F0E /* LINMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINMainController.h; path = Classes/LINMainController.h; sourceTree = "<group>"; };
+		7FC182A80CBBCB5100E36F0E /* LINMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINMainController.m; path = Classes/LINMainController.m; sourceTree = "<group>"; };
+		7FC182A90CBBCB5100E36F0E /* LINPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINPreferencesController.h; path = Classes/LINPreferencesController.h; sourceTree = "<group>"; };
+		7FC182AA0CBBCB5100E36F0E /* LINPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINPreferencesController.m; path = Classes/LINPreferencesController.m; sourceTree = "<group>"; };
+		7FC182AD0CBBCB5100E36F0E /* LINVariousPerformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINVariousPerformer.h; path = Classes/LINVariousPerformer.h; sourceTree = "<group>"; };
+		7FC182AE0CBBCB5100E36F0E /* LINVariousPerformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINVariousPerformer.m; path = Classes/LINVariousPerformer.m; sourceTree = "<group>"; };
+		7FC182B50CBBCB9100E36F0E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		7FC182B90CBBCBB700E36F0E /* LINStandardHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINStandardHeader.h; path = Classes/LINStandardHeader.h; sourceTree = "<group>"; };
+		7FC183730CBBD39300E36F0E /* LINFileMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINFileMenuController.h; path = Classes/LINFileMenuController.h; sourceTree = "<group>"; };
+		7FC183740CBBD39300E36F0E /* LINFileMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINFileMenuController.m; path = Classes/LINFileMenuController.m; sourceTree = "<group>"; };
+		7FC183780CBBD4E400E36F0E /* LINBasicPerformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINBasicPerformer.h; path = Classes/LINBasicPerformer.h; sourceTree = "<group>"; };
+		7FC183790CBBD4E400E36F0E /* LINBasicPerformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINBasicPerformer.m; path = Classes/LINBasicPerformer.m; sourceTree = "<group>"; };
+		7FC1837B0CBBD5E700E36F0E /* LINAuthenticationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINAuthenticationController.h; path = Classes/LINAuthenticationController.h; sourceTree = "<group>"; };
+		7FC1837C0CBBD5E700E36F0E /* LINAuthenticationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINAuthenticationController.m; path = Classes/LINAuthenticationController.m; sourceTree = "<group>"; };
+		7FC183D00CBBD9D200E36F0E /* LINInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LINInterfaceController.h; path = Classes/LINInterfaceController.h; sourceTree = "<group>"; };
+		7FC183D10CBBD9D200E36F0E /* LINInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LINInterfaceController.m; path = Classes/LINInterfaceController.m; sourceTree = "<group>"; };
+		7FFEFA760DA946CB00A66E4E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/LINMainMenu.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Lingon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lingon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				7FC182B60CBBCB9100E36F0E /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7FC182B90CBBCBB700E36F0E /* LINStandardHeader.h */,
+				7FC1829D0CBBCAC500E36F0E /* Controllers */,
+				7FC183760CBBD4A200E36F0E /* Performers */,
+				7FC1829F0CBBCADA00E36F0E /* Menu Controllers */,
+				7F372A040CC12D48003BFC4F /* Delegates */,
+				7F1BB5510CC226B400890506 /* Subclasses */,
+				7F39E29D0DB10ECC007C449A /* Categories */,
+				7F9590C20DB7CCAA00803BD1 /* Transformers */,
+				7F9590C30DB7CCB900803BD1 /* Others */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FC182B50CBBCB9100E36F0E /* SystemConfiguration.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Lingon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Lingon */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Lingon;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Lingon_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F29B3460DBD1C6A00885C1F /* Localizable.strings */,
+				7F3AB3EF0DBB7E700020A70B /* InsertParameters.plist */,
+				7F7E946B0DB696F800019845 /* Xibs */,
+				7F372A120CC12E6A003BFC4F /* Graphics */,
+				7F2075E50DB11ED100EF86D5 /* Credits.rtf */,
+				7F2075760DB11D5600EF86D5 /* Lingon-Manual.pdf */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F1BB5510CC226B400890506 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				7F1BB5520CC226BA00890506 /* Headers */,
+				7FB8E2B60CC261EE00177872 /* LINApplication.m */,
+				7FB77CB50DB3E28600763AF7 /* LINDummyView.m */,
+				7FB2BD770DBA27EE00EB8278 /* LINGradientBackgroundView.m */,
+				7FB8E3A80CC2822A00177872 /* LINPlistListCell.m */,
+				7FB2BD4D0DBA1D5B00EB8278 /* LINWindow.m */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
+		7F1BB5520CC226BA00890506 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7FB8E2B50CC261EE00177872 /* LINApplication.h */,
+				7FB77CB40DB3E28600763AF7 /* LINDummyView.h */,
+				7FB2BD760DBA27EE00EB8278 /* LINGradientBackgroundView.h */,
+				7FB8E3A70CC2822A00177872 /* LINPlistListCell.h */,
+				7FB2BD4C0DBA1D5B00EB8278 /* LINWindow.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		7F372A040CC12D48003BFC4F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7F372A050CC12D4E003BFC4F /* Headers */,
+				7FA32F060CC2BF7B0067AAA8 /* LINOutlineViewDelegate.m */,
+				7F1A94990CCE79ED00FC693F /* LINSplitViewDelegate.m */,
+				7F372A1B0CC12EF6003BFC4F /* LINWindowDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		7F372A050CC12D4E003BFC4F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7FA32F050CC2BF7B0067AAA8 /* LINOutlineViewDelegate.h */,
+				7F1A94980CCE79ED00FC693F /* LINSplitViewDelegate.h */,
+				7F372A1A0CC12EF6003BFC4F /* LINWindowDelegate.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		7F372A120CC12E6A003BFC4F /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				7F9591BB0DB7DECF00803BD1 /* LINNotValidIcon.pdf */,
+				7F9591BC0DB7DECF00803BD1 /* LINValidIcon.pdf */,
+				7F372A130CC12E98003BFC4F /* LINNewIcon.pdf */,
+				7F372A150CC12E98003BFC4F /* LINSaveIcon.pdf */,
+				7FC182870CBBC91C00E36F0E /* LINApplicationIcon.icns */,
+				7F3551310CC6BD5600CC424C /* LINStepOne.pdf */,
+				7F35512F0CC6BD5600CC424C /* LINStepTwo.pdf */,
+				7F3551300CC6BD5600CC424C /* LINStepThree.pdf */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		7F39E29D0DB10ECC007C449A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7F39E29E0DB10ED4007C449A /* Headers */,
+				7F39E2A00DB10F36007C449A /* NSToolbarItem+Lingon.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		7F39E29E0DB10ED4007C449A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7F39E29F0DB10F36007C449A /* NSToolbarItem+Lingon.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		7F7E946B0DB696F800019845 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				7FFEFA750DA946CB00A66E4E /* LINMainMenu.xib */,
+				7F7E945E0DB6916B00019845 /* LINPreferences.xib */,
+				7F7E94610DB6961800019845 /* LINManPageLaunchdPlist.xib */,
+				7F7E94640DB6967900019845 /* LINManPageLaunchctl.xib */,
+				7F7E94670DB696C900019845 /* LINManPageLaunchd.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		7F9590C20DB7CCAA00803BD1 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				7F9590C50DB7CCD500803BD1 /* Headers */,
+				7F9590C70DB7CCE900803BD1 /* LINFontTransformer.m */,
+			);
+			name = Transformers;
+			sourceTree = "<group>";
+		};
+		7F9590C30DB7CCB900803BD1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7F9590C40DB7CCC600803BD1 /* Headers */,
+				7F9590C90DB7CCE900803BD1 /* LINSyntaxColouring.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		7F9590C40DB7CCC600803BD1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7F9590C80DB7CCE900803BD1 /* LINSyntaxColouring.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		7F9590C50DB7CCD500803BD1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7F9590C60DB7CCE800803BD1 /* LINFontTransformer.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		7FC1829D0CBBCAC500E36F0E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1829E0CBBCACD00E36F0E /* Headers */,
+				7FC1837C0CBBD5E700E36F0E /* LINAuthenticationController.m */,
+				7FC183D10CBBD9D200E36F0E /* LINInterfaceController.m */,
+				7FC182A80CBBCB5100E36F0E /* LINMainController.m */,
+				7FC182AA0CBBCB5100E36F0E /* LINPreferencesController.m */,
+				7F372A2D0CC13092003BFC4F /* LINToolbarController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7FC1829E0CBBCACD00E36F0E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1837B0CBBD5E700E36F0E /* LINAuthenticationController.h */,
+				7FC183D00CBBD9D200E36F0E /* LINInterfaceController.h */,
+				7FC182A70CBBCB5100E36F0E /* LINMainController.h */,
+				7FC182A90CBBCB5100E36F0E /* LINPreferencesController.h */,
+				7F372A2C0CC13092003BFC4F /* LINToolbarController.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		7FC1829F0CBBCADA00E36F0E /* Menu Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC182A00CBBCAE600E36F0E /* Headers */,
+				7FC183740CBBD39300E36F0E /* LINFileMenuController.m */,
+				7FC182A60CBBCB5100E36F0E /* LINHelpMenuController.m */,
+				7FB2BE200DBA404E00EB8278 /* LINViewMenuController.m */,
+			);
+			name = "Menu Controllers";
+			sourceTree = "<group>";
+		};
+		7FC182A00CBBCAE600E36F0E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC183730CBBD39300E36F0E /* LINFileMenuController.h */,
+				7FB2BE1F0DBA404E00EB8278 /* LINViewMenuController.h */,
+				7FC182A50CBBCB5100E36F0E /* LINHelpMenuController.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		7FC183760CBBD4A200E36F0E /* Performers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC183770CBBD4AA00E36F0E /* Headers */,
+				7FC183790CBBD4E400E36F0E /* LINBasicPerformer.m */,
+				7FC182AE0CBBCB5100E36F0E /* LINVariousPerformer.m */,
+			);
+			name = Performers;
+			sourceTree = "<group>";
+		};
+		7FC183770CBBD4AA00E36F0E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC183780CBBD4E400E36F0E /* LINBasicPerformer.h */,
+				7FC182AD0CBBCB5100E36F0E /* LINVariousPerformer.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Lingon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Lingon" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lingon;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Lingon;
+			productReference = 8D1107320486CEB800E47090 /* Lingon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Lingon" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				sv,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Lingon */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Lingon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				7FC182880CBBC91C00E36F0E /* LINApplicationIcon.icns in Resources */,
+				7F372A160CC12E98003BFC4F /* LINNewIcon.pdf in Resources */,
+				7F372A180CC12E98003BFC4F /* LINSaveIcon.pdf in Resources */,
+				7F3551320CC6BD5600CC424C /* LINStepTwo.pdf in Resources */,
+				7F3551330CC6BD5600CC424C /* LINStepThree.pdf in Resources */,
+				7F3551340CC6BD5600CC424C /* LINStepOne.pdf in Resources */,
+				7FFEFA770DA946CB00A66E4E /* LINMainMenu.xib in Resources */,
+				7F2075780DB11D5600EF86D5 /* Lingon-Manual.pdf in Resources */,
+				7F2075E60DB11ED100EF86D5 /* Credits.rtf in Resources */,
+				7F7E94600DB6916B00019845 /* LINPreferences.xib in Resources */,
+				7F7E94630DB6961800019845 /* LINManPageLaunchdPlist.xib in Resources */,
+				7F7E94660DB6967900019845 /* LINManPageLaunchctl.xib in Resources */,
+				7F7E94690DB696C900019845 /* LINManPageLaunchd.xib in Resources */,
+				7F9591BD0DB7DECF00803BD1 /* LINNotValidIcon.pdf in Resources */,
+				7F9591BE0DB7DECF00803BD1 /* LINValidIcon.pdf in Resources */,
+				7F3AB3F00DBB7E700020A70B /* InsertParameters.plist in Resources */,
+				7F29B3480DBD1C6A00885C1F /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				7FC182B00CBBCB5100E36F0E /* LINHelpMenuController.m in Sources */,
+				7FC182B10CBBCB5100E36F0E /* LINMainController.m in Sources */,
+				7FC182B20CBBCB5100E36F0E /* LINPreferencesController.m in Sources */,
+				7FC182B40CBBCB5100E36F0E /* LINVariousPerformer.m in Sources */,
+				7FC183750CBBD39300E36F0E /* LINFileMenuController.m in Sources */,
+				7FC1837A0CBBD4E400E36F0E /* LINBasicPerformer.m in Sources */,
+				7FC1837D0CBBD5E700E36F0E /* LINAuthenticationController.m in Sources */,
+				7FC183D20CBBD9D200E36F0E /* LINInterfaceController.m in Sources */,
+				7F372A1C0CC12EF6003BFC4F /* LINWindowDelegate.m in Sources */,
+				7F372A2E0CC13092003BFC4F /* LINToolbarController.m in Sources */,
+				7FB8E2B70CC261EE00177872 /* LINApplication.m in Sources */,
+				7FB8E3A90CC2822A00177872 /* LINPlistListCell.m in Sources */,
+				7FA32F070CC2BF7B0067AAA8 /* LINOutlineViewDelegate.m in Sources */,
+				7F1A949A0CCE79ED00FC693F /* LINSplitViewDelegate.m in Sources */,
+				7F39E2A10DB10F36007C449A /* NSToolbarItem+Lingon.m in Sources */,
+				7FB77CB60DB3E28600763AF7 /* LINDummyView.m in Sources */,
+				7F9590CA0DB7CCE900803BD1 /* LINFontTransformer.m in Sources */,
+				7F9590CB0DB7CCE900803BD1 /* LINSyntaxColouring.m in Sources */,
+				7FB2BD4E0DBA1D5B00EB8278 /* LINWindow.m in Sources */,
+				7FB2BD780DBA27EE00EB8278 /* LINGradientBackgroundView.m in Sources */,
+				7FB2BE210DBA404E00EB8278 /* LINViewMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F2075760DB11D5600EF86D5 /* Lingon-Manual.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F2075770DB11D5600EF86D5 /* English */,
+			);
+			name = "Lingon-Manual.pdf";
+			sourceTree = "<group>";
+		};
+		7F29B3460DBD1C6A00885C1F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F29B3470DBD1C6A00885C1F /* English */,
+				7F29B3490DBD1C8B00885C1F /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7F7E945E0DB6916B00019845 /* LINPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7E945F0DB6916B00019845 /* English */,
+				7F29B3450DBD1C5800885C1F /* sv */,
+			);
+			name = LINPreferences.xib;
+			sourceTree = "<group>";
+		};
+		7F7E94610DB6961800019845 /* LINManPageLaunchdPlist.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7E94620DB6961800019845 /* English */,
+			);
+			name = LINManPageLaunchdPlist.xib;
+			sourceTree = "<group>";
+		};
+		7F7E94640DB6967900019845 /* LINManPageLaunchctl.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7E94650DB6967900019845 /* English */,
+			);
+			name = LINManPageLaunchctl.xib;
+			sourceTree = "<group>";
+		};
+		7F7E94670DB696C900019845 /* LINManPageLaunchd.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7E94680DB696C900019845 /* English */,
+			);
+			name = LINManPageLaunchd.xib;
+			sourceTree = "<group>";
+		};
+		7FFEFA750DA946CB00A66E4E /* LINMainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFEFA760DA946CB00A66E4E /* English */,
+				7F29B3440DBD1C5100885C1F /* sv */,
+			);
+			name = LINMainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lingon_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CFLAGS = "-DDEBUG_STYLE_BUILD";
+				PRODUCT_NAME = Lingon;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lingon_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Lingon;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DDEBUG_STYLE_BUILD";
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Lingon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Lingon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

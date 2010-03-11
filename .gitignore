@@ -1,0 +1,10 @@
+# Files in all folders ...
+.DS_Store
+
+# Folders in root ...
+/build
+
+# Files in the project
+Lingon.xcodeproj/*.mode1v3
+Lingon.xcodeproj/*.pbxuser
+

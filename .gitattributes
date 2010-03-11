@@ -1,0 +1,3 @@
+# Files in the project
+Lingon.xcodeproj/*.pbxproj -crlf -diff -merge
+
